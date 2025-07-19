@@ -330,3 +330,17 @@ body {
     float: right;
     width: 85%;
 }
+
+#yt-card-channel_name {
+    float: right;
+    width: 85%;
+    color: #606060;
+    font-size: 14px;
+}
+
+#views_time {
+    float: right;
+    width: 85%;
+    color: #606060;
+    font-size: 14px;
+}
