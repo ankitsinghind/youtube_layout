@@ -173,6 +173,7 @@ body {
     display: flex;
     min-height: 100vh;
     background: #fff;
+    overflow-x: hidden;
 }
 
 .yt_sidebar {
@@ -290,44 +291,24 @@ body {
 .yt-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 18px;
+    grid-gap: 20px;
+
 }
 
 .yt-card {
-    width: 400px;
-    height: 250px;
+    width: 375px;
+    height: 350px;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
 }
 
-/*
-.yt-img {
-    width: 331.45px;
-    height: 300px;
-    object-fit: cover;
-    background: #222;
-}
-
-.yt-content {
-    padding: 24px;
-    flex: 1;
+#card_image {
+    width: 375px;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-}
-
-.yt-title {
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin-bottom: 12px;
-    color: #fff;
-}
-
-.yt-desc {
-    font-size: 1rem;
-    color: #fff;
-    margin-bottom: 18px;
-    line-height: 16px;
-    max-height: 32px;
 }
