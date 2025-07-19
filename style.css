@@ -312,3 +312,21 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.yt-card-content {
+    padding: 16px;
+    display: inline;
+    flex-direction: column;
+}
+
+#yt-card-channel {
+    padding: 12px 0;
+    float: left;
+    width: 15%;
+}
+
+#yt-card-title {
+    padding: 2px 0;
+    float: right;
+    width: 85%;
+}
