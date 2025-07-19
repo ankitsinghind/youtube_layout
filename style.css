@@ -297,7 +297,7 @@ body {
 
 .yt-card {
     width: 375px;
-    height: 350px;
+    height: 400px;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
@@ -306,7 +306,7 @@ body {
 
 #card_image {
     width: 375px;
-    height: 250px;
+    height: 200px;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
