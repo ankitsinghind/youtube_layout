@@ -221,15 +221,7 @@ body {
     vertical-align: middle;
 }
 
-/****************/
-.yt_main {
-    margin-top: 56px;
-    flex: 1;
-    padding: 32px;
-    margin-left: 220px;
-    background: #fff;
-}
-
+/*Sign in to like videos,comment,and subscribe.*/
 .demo_text {
     padding-left: 25px;
     vertical-align: middle;
@@ -285,3 +277,57 @@ body {
 }
 
 /*Main Content Area*/
+
+.yt_main {
+    margin-top: 56px;
+    flex: 1;
+    padding-top: 70px;
+    padding-left: 70px;
+    margin-left: 220px;
+    background: #fff;
+}
+
+.yt-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 18px;
+}
+
+.yt-card {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+.yt-img {
+    width: 331.45px;
+    height: 300px;
+    object-fit: cover;
+    background: #222;
+}
+
+.yt-content {
+    padding: 24px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.yt-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.yt-desc {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 18px;
+    line-height: 16px;
+    max-height: 32px;
+}
