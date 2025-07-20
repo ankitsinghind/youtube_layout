@@ -290,14 +290,13 @@ body {
 
 .yt-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(3, 53vh);
 
 }
 
 .yt-card {
     width: 375px;
-    height: 400px;
+    height: 350px;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
@@ -314,7 +313,7 @@ body {
 }
 
 .yt-card-content {
-    padding: 16px;
+    padding: 8px;
     display: inline;
     flex-direction: column;
 }
@@ -326,12 +325,13 @@ body {
 }
 
 #yt-card-title {
-    padding: 2px 0;
     float: right;
     width: 85%;
 }
 
 #yt-card-channel_name {
+    margin: 0px -1.4px 0px 0px;
+    line-height: 2px;
     float: right;
     width: 85%;
     color: #606060;
