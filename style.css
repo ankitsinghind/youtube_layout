@@ -288,6 +288,11 @@ body {
     background: #fff;
 }
 
+.yt_main a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .yt-grid {
     display: grid;
     grid-template-columns: repeat(3, 53vh);
