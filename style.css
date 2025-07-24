@@ -358,6 +358,7 @@ body {
     font-weight: 550;
     margin-top: 10px;
     margin-left: 20px;
+    margin-right: 330px;
     background-color: #0f0f0f;
     color: white;
     border: none;
@@ -392,6 +393,12 @@ body {
     height: 16px;
     width: 16px;
     cursor: pointer;
+}
+
+#like-count {
+    color: #0f0f0f;
+    margin-left: 3px;
+    font-weight: 550;
 }
 
 #dislike-count-btn {
@@ -439,4 +446,81 @@ body {
     height: 16px;
     width: 16px;
     cursor: pointer;
+}
+
+#share-btn:hover {
+    background: #e5e5e5;
+}
+
+#share-text {
+    color: #0f0f0f;
+    margin-left: 3px;
+    font-weight: 550;
+}
+
+#download-btn {
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 36px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 40px 40px 40px 40px;
+    font-size: 14px;
+    color: #606060;
+    cursor: pointer;
+}
+
+#download-icon {
+    margin-left: 10px;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+#download-btn:hover {
+    background: #e5e5e5;
+}
+
+#download-text {
+    color: #0f0f0f;
+    margin-left: 3px;
+    font-weight: 550;
+}
+
+#ellipse-horizontal-btn {
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 40px 40px 40px 40px;
+    font-size: 14px;
+    color: #606060;
+    cursor: pointer;
+}
+
+#ellispe-horizontal-icon {
+    margin-left: 10px;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+#ellipse-horizontal-btn:hover {
+    background: #e5e5e5;
+}
+
+#description-box {
+    width: 1100px;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    color: black;
+    padding: 8px;
+    font-size: 14px;
 }
