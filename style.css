@@ -351,3 +351,92 @@ body {
 }
 
 /*intab.html styling*/
+
+#subscribe-btn {
+    height: 36px;
+    width: 94.54px;
+    font-weight: 550;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #0f0f0f;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#like-count-btn {
+    height: 36px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 40px 0px 0px 40px;
+    font-size: 14px;
+    color: #606060;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+#like-count-btn:hover {
+    background: #e5e5e5;
+}
+
+
+#like-icon {
+    margin-left: 5px;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+#dislike-count-btn {
+    margin-top: 10px;
+    height: 36px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 0px 40px 40px 0px;
+    font-size: 14px;
+    color: #606060;
+    cursor: pointer;
+}
+
+#dislike-count-btn:hover {
+    background: #e5e5e5;
+}
+
+#dislike-icon {
+    margin-left: 5px;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+#share-btn {
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 36px;
+    width: 92px;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 40px 40px 40px 40px;
+    font-size: 14px;
+    color: #606060;
+    cursor: pointer;
+}
+
+#share-icon {
+    margin-left: 10px;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
