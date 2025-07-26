@@ -524,3 +524,22 @@ body {
     padding: 8px;
     font-size: 14px;
 }
+
+.yt_secondary_display {
+    width: 350px;
+    background: yellow;
+    border-color: #f8f8f8;
+    margin-top: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: fixed;
+    top: 56px;
+    margin-right: 10px;
+    right: 0;
+    height: calc(100vh - 56px);
+    z-index: 100;
+}
+
+.yt_secondary_display:hover {
+    overflow-y: auto;
+}
