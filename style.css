@@ -308,7 +308,7 @@ body {
     flex-direction: column;
 }
 
-#card_image {
+#card_image_ {
     width: 375px;
     height: 200px;
     border-radius: 20px;
